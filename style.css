@@ -1,0 +1,207 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    color: white;
+    background-color: black;
+    max-width: 1440px;
+}
+h1 {
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #BDAE82;
+    margin: 0;
+    padding: 0;
+}
+p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+h4 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+.bg {
+    background-image: url(/Portfolio1/img/bg-hero.jpg);
+    width: 1440px;
+    height: 910px;
+}
+.wrapper {
+    padding-left: 20px;
+    padding-right: 11px;
+}
+/*--------------------------------------Header----------------*/
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    padding-top: 25px;
+}
+.navigation{
+    padding-top: 13px;
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding-left: 753px;
+}
+.navigation li {
+    padding-left: 30px;
+}
+.header__button{
+    padding-top: 31px;
+}
+.button {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+}
+.slesh__button {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+/*---------------------------------Hero-------------------------*/
+.hero__content{
+    padding-top: 194px;
+    padding-left: 60px;
+}
+.hero__content p {
+    font-size: 20px;
+    margin-top: 34px;
+    width: 470px;
+    line-height: 40px;
+}
+.hero__button {
+    margin-top: 26px;
+}
+.button__colored {
+    border: none;
+    background-color: #BDAE82;
+    color: black;
+    width: 220px;
+    height: 55px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.h2-line{
+    display: flex;
+    justify-content: center;
+    margin-top: 115px;
+    column-gap: 20px;
+    padding-right: 10px;
+}
+.line{
+    width: 274px;
+    height: 24px;
+    border-bottom: blanchedalmond 1px solid;
+}
+.skills__cards {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 76px;
+    height: 240px;
+    margin-left: 18px;
+    margin-right: 30px;
+}
+.skills__cards p {
+    width: 280px;
+    line-height: 36px;
+}
+.skill__icon {
+    padding-bottom: 28px;
+}
+.line-portfolio {
+    width: 10px;
+}
+.portfolio__button {
+    margin-top: 75px;
+    margin-left: 253px;
+    margin-bottom: 61px;
+}
+.portfolio__img{
+    margin-right: 10px;
+}
+.img__1row {
+    display: flex;
+    justify-content: space-between;
+
+}
+.img__2row {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+.video {
+    height: 830px;
+}
+.img-wedding {
+    margin-top: 76px;
+}
+.button__player {
+    border: none;
+    background: transparent;
+    position: absolute;
+    top: 3418px;
+    left: 878px;
+    cursor: pointer;
+}
+
+.line__price-left {
+    width: 266px;
+}
+.line__price-right {
+    width: 290px;
+}
+.price__cards {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 505px;
+    margin-top: 74px;
+    margin-right: 10px;
+}
+h3 {
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    font-size: 28px;
+    padding-top: 53px;
+    padding-bottom: 38px;
+    margin: 0;
+}
+.card {
+    width: 445px;
+    border: solid 2px #BDAE82;
+}
+.card span {
+    color: #BDAE82;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    font-size: 24px;
+    padding-right: 3px;
+}
+.card p {
+    margin-top: 29px;
+    font-size: 18px;
+    line-height: 36px;
+    margin-bottom: 39px;
+}
